@@ -1,5 +1,6 @@
 const fs = require("fs");
-const inquirer = require("inquirer");
+
+const {getUserInput,getUserchoice} = require("./src/input")
 const {
     Engineer
 } = require("./lib/Engineer.js");
@@ -12,7 +13,7 @@ const {
 
 
 function renderHTML(title, style, body, javascript) {
-    fs.writeFileSync("./index.html",
+    fs.writeFileSync("./dist/index.html",
         `<!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -46,28 +47,6 @@ async function start() {
     Employees.push(manager)
 
     MainMenu()
-
-}
-async function getUserInput(message) {
-
-    return (await inquirer.prompt({
-        type: "input",
-        name: "response",
-        message: message,
-
-    })).response;
-
-
-}
-async function getUserchoice(message, choices) {
-
-    return (await inquirer.prompt({
-        type: "list",
-        name: "response",
-        message: message,
-        choices: choices
-
-    })).response;
 
 }
 start()
