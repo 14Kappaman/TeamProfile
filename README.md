@@ -3,6 +3,8 @@ Link to Video []
 ## Description
 [Link To Video](https://watch.screencastify.com/v/o1nZy0jum2H4HZo1cmHO)
 
+![screenshot](/Screenshot.png)
+
 Generates HTML file given user input of employees that includes, managers, interns and engineers. 
 
 ## Table of Contents
