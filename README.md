@@ -1,5 +1,5 @@
 # Team Profile Generator 
-Link to Video []
+
 ## Description
 [Link To Video](https://watch.screencastify.com/v/o1nZy0jum2H4HZo1cmHO)
 
@@ -32,7 +32,7 @@ none
 
 ## Contribution Guidelines
 
-They can't.
+Not accepting contributions at this time.
 
 ## Test Instructions
 
