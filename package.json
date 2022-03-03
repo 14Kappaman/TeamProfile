@@ -2,7 +2,8 @@
     "name": "10 Team Profile",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",    "scripts": {
+    "main": "index.js",    
+    "scripts": {
       "start": "node index.js",
       "test": "jest"
     },
@@ -22,5 +23,5 @@
       "url": "https://github.com/14Kappaman/Professional-README-Generator/issues"
     },
     "homepage": "https://github.com/14Kappaman/Professional-README-Generator#readme"
-  }
+  } 
   

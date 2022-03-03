@@ -1,6 +1,7 @@
 # Team Profile Generator 
-
+Link to Video []
 ## Description
+[Link To Video](https://watch.screencastify.com/v/o1nZy0jum2H4HZo1cmHO)
 
 Generates HTML file given user input of employees that includes, managers, interns and engineers. 
 
